@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <fieldset>
+        <h1>Menu</h1>
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="tabela.html">Tabelas</a>
+            </li>
+            <li>
+                <a href="https://www.Google.com.br">Google</a>
+            </li>
+        </ul>
+    </fieldset>
+
+    <h1>Formulário</h1>
+
+    <Form method="post">
+        <label for='nome'>Nome: </label>
+        <input type="text" name="nome" required placeholder="Qual seu nome?" id="nome"><br><br>
+
+        <label for='email'>Email: </label>
+        <input type="text" name="email" required placeholder="Digite seu email" id="email"><br><br>
+
+        <label for='telefone'>Telefone: </label>
+        <input type="number" name="telefone" placeholder="Digite seu telefone" id="telefone"><br><br>
+
+        <label for='senha'>Senha: </label>
+        <input type="password" required name="senha" placeholder="Digite sua senha" id="senha"><br><br>
+
+        <label for="sexo">Sexo: </label>
+        <input type="radio" name="sexo" id="sexo" placeholder="sexo" value="M">Masculino
+        <input type="radio" name="sexo" id="sexo" placeholder="sexo" value="F">Feminino<br><br>
+
+        <label for="uf">UF: </label>
+        <select name="uf" id="uf">
+            <option value="">Selecione</option>
+            <option value="1">SP</option>
+            <option value="1">RJ</option>
+            <option value="1">AC</option>
+            <option value="1">DF</option>
+        </select><br>
+
+        <label for="uf">Cidade: </label>
+        <select name="uf" id="uf">
+            <option value="">Selecione</option>
+            <option value="1">SPhahahaah</option>
+            <option value="1">RJrarara</option>
+            <option value="1">ACkakaka</option>
+            <option value="1">DFlslslssl</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Hobbies</legend>
+
+            <input type="checkbox"> Música <br>
+            <input type="checkbox"> Futebol <br>
+            <input type="checkbox"> Teatro <br>
+            <input type="checkbox"> Jogos <br>
+            <input type="checkbox"> Cozinhar <br>
+        </fieldset><br>
+
+        <label for="sexo">Observações: </label>
+        <textarea name="texto" id="texto" cols="30" rows="10"></textarea><br><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        <input type="button" value="Voltar">
+    </Form>
+</body>
+
+</html>
